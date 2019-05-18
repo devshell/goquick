@@ -10,6 +10,7 @@ REST end-point should be ala ".../form/id/23287".
 3. if the server gets a request that is valid, the server will respond with the form definition and the other header values set, such as next and message.
 
 So the JSON would initially look like this. I was working on something like this for go called "goscaffolding":
+```
 {
     form: {
         get: ".../form/id/23287"
@@ -29,3 +30,4 @@ So the JSON would initially look like this. I was working on something like this
         }
     }
 }
+```
