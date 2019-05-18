@@ -1,0 +1,2 @@
+# goquick
+Golang Scaffolding
